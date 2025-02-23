@@ -4,7 +4,7 @@
   "includedScripts": [],
   "projectType": "application",
   "prefix": "app",
-  "sourceRoot": "./src",
+  "sourceRoot": "src",
   "tags": [],
   "targets": {
     "build": {
@@ -19,9 +19,10 @@
         "inlineStyleLanguage": "scss",
         "assets": [
           {
-            "glob": "**/*",
-            "input": "public"
-          }
+            "input": "src/assets",
+            "output": "assets",
+            "glob": "**/*"
+            }
         ],
         "styles": ["./src/styles.scss"],
         "scripts": []
